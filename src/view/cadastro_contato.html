@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Cadastrar Contato</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/form-cadastro.css">
+
+    <title>Cadastrar Contatos</title>
 </head>
+
 <body>
-    
+    <div class="container mt-5 mb-5 d-flex justify-content-center">
+        <div class="card px-1 py-4">
+            <div class="container">
+                <h1 class="titulo-principal">Cadastrar Contatos</h1>
+                <p class="lead">Preencha todos os campos para salvar dados do contato</p>
+            </div>
+
+            <form>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputTipo">Selecione: Telefone ou Email?</label>
+                        <select class="form-control">
+                            <option>Telefone</option>
+                            <option>Email</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputValor">Insira sua escolha:</label>
+                        <input type="number" class="form-control" id="inputCpf" placeholder="Informe Email ou Telefone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputObservacao">Observação:</label>
+                    <input type="text" class="form-control" id="inputEndereco" placeholder="Deixe alguma observação (Opcional)">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <a class="btn btn-danger" href="###########">Voltar</a>
+            </form>
+        </div>
+    </div>
+
 </body>
+
 </html>

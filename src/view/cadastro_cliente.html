@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/form-cadastro.css">
 
     <title>Cadastrar Clientes</title>
 </head>
+
 <body>
-    
-    <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Senha</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-          </div>
+    <div class="container mt-5 mb-5 d-flex justify-content-center">
+        <div class="card px-1 py-4">
+            <div class="container">
+                <h1 class="titulo-principal">Cadastrar Cliente</h1>
+                <p class="lead">Cadastre-se para adicionar seus contatos pessoais</p>
+            </div>
+
+            <form>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputNome">Nome:</label>
+                        <input type="Nome" class="form-control" id="inputNome" placeholder="Informe seu nome">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCpf">Cpf:</label>
+                        <input type="number" class="form-control" id="inputCpf" placeholder="Informe seu cpf">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEndereco">Endereço:</label>
+                    <input type="text" class="form-control" id="inputEndereco" placeholder="Informe seu endereço">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <a class="btn btn-danger" href="/inicio.html">Voltar</a>
+            </form>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Endereço</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
-        </div>
-        
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Clique em mim
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Entrar</button>
-      </form>
+    </div>
 
 </body>
+
 </html>
