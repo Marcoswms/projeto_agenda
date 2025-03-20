@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(218, 241, 240);
+}
+
+.card {
+    width: 790px;
+    height: 800px;
+    background: linear-gradient(0deg, #8e4ee2, #e5d4f5);
+    border-radius: 15px;
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
