@@ -1,12 +1,12 @@
 package model;
 
-import java.util.Calendar;
+import java.sql.Date;
 
 public class Cliente {
     private int id;
     private String nome;
     private String cpf;
-    private Calendar data_nascimento;
+    private Date data_nascimento;
     private String endereco;
 
     public Cliente() {
@@ -36,11 +36,11 @@ public class Cliente {
         this.cpf = cpf;
     }
 
-    public Calendar getData_nascimento() {
+    public Date getData_nascimento() {
         return data_nascimento;
     }
 
-    public void setData_nascimento(Calendar data_nascimento) {
+    public void setData_nascimento(Date data_nascimento) {
         this.data_nascimento = data_nascimento;
     }
 

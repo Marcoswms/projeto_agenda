@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class ConexaoBancoDeDados {
     private static final String url = "jdbc:mysql://localhost:3306/projeto_agenda";
     private static final String usuario = "root";
-    private static final String senha = "root";
+    private static final String senha = "";
 
     private static Connection conexao;
 
